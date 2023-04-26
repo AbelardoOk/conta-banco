@@ -1,5 +1,5 @@
-import { create } from './criarConta';
-import { program } from './interface';
+import { create } from './criarConta.js';
+import { program } from './interface.js';
 
 create();
 program();

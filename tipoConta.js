@@ -1,6 +1,6 @@
-const { log } = require('console');
-var fs = require('fs');
-const { normalize } = require('path/posix');
+import { log } from 'console';
+import { normalize } from 'path/posix';
+import fs from 'fs'
 
 export class Conta {
     constructor(numero, agencia, conta, saldo){

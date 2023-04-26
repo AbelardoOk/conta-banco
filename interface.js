@@ -1,4 +1,6 @@
-var prompt = require('prompt-sync')();
+import { Conta, contaSalario } from './tipoConta.js';
+import PromptSync from 'prompt-sync';
+var prompt = PromptSync();
 
 export function program() {
 
