@@ -1,7 +1,7 @@
-import { criarConta } from './criarConta';
+import { create } from './criarConta';
 import { program } from './interface';
 
-criarConta();
+create();
 program();
 
 cnt.bd();

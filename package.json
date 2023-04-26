@@ -1,0 +1,15 @@
+{
+  "name": "conta-banco",
+  "version": "1.0.0",
+  "description": "Um sistema simples com algumas coisas que aprendi em aula. O programa cria uma conta no banco, podendo ser Conta Corrente ou Conta Salário, o sistema é bem simples e possuí uma interface baseada em texto.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

@@ -1,6 +1,6 @@
 import {Conta, contaSalario} from './tipoConta';
 
-export function criarConta(){
+export function create() {
 
     var cnt;
     var saldo = parseInt(Math.random() * 1000);
