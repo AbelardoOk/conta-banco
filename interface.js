@@ -1,4 +1,4 @@
-import { Conta, contaSalario } from './tipoConta.js';
+import './tipoConta.js';
 import PromptSync from 'prompt-sync';
 var prompt = PromptSync();
 
