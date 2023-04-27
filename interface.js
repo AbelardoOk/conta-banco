@@ -1,8 +1,8 @@
-import './tipoConta.js';
+import { Conta, contaSalario } from './tipoConta.js';
 import PromptSync from 'prompt-sync';
 var prompt = PromptSync();
 
-export function program() {
+export function programa(cnt) {
 
     for(i = 0; i != 4; i){
 
