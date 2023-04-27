@@ -1,12 +1,14 @@
+import { cotacao } from './apiCotacao.js';
 import { Conta, contaSalario } from './tipoConta.js';
 import PromptSync from 'prompt-sync';
 var prompt = PromptSync();
+
 
 export function programa(cnt) {
 
     for(i = 0; i != 4; i){
 
-        console.log(" \n !Ações Bancárias ! \n 1. Depósito \n 2. Saque \n 3. Saldo \n 4. Sair \n");
+        console.log(" \n !Ações Bancárias ! \n 1. Depósito \n 2. Saque \n 3. Saldo \n 4. Cotação \n 5. Sair \n");
 
         var i = Number(prompt("O quê deseja fazer? "));
 
@@ -19,11 +21,13 @@ export function programa(cnt) {
                 break;
             case 3:
                 console.log(cnt.extrato());
+                break
+            case 4:
+                console.log(cotacao(cnt));
                 break;
         
-            default:
-
-                break;
+            case 5:
+                break
         }
     }
 }
