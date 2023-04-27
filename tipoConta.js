@@ -1,5 +1,6 @@
 import { log } from 'console';
 import { normalize } from 'path/posix';
+import axios from 'axios';
 import fs from 'fs'
 
 export class Conta {
