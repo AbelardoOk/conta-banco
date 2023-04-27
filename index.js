@@ -17,7 +17,7 @@ switch (conta) {
         break;
 
     case 2:
-        cnt = new contaSalario(
+        var cnt = new contaSalario(
             parseInt(Math.random() * 10),
             parseInt(Math.random() * 100),
             prompt("Insira seu nome completo: "),
@@ -31,6 +31,8 @@ switch (conta) {
 }
 
 console.log(`\n Você possuí R$${saldo} de saldo! \n`);
+
+
 
 programa(cnt);
 cnt.bd();
