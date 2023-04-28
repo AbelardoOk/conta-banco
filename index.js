@@ -3,7 +3,8 @@ import { Conta, contaSalario } from './tipoConta.js';
 import PromptSync from 'prompt-sync';
 var prompt = PromptSync();
 
-var conta = Number(prompt(" \n Insira 1 para Conta Normal e 2 para Conta Salário: "));
+console.log(" ");
+var conta = Number(prompt("Insira 1 para Conta Normal e 2 para Conta Salário: "));
 var saldo = parseInt(Math.random() * 1000);
 
 switch (conta) {
@@ -30,9 +31,6 @@ switch (conta) {
         break;
 }
 
-console.log(`\n Você possuí R$${saldo} de saldo! \n`);
+console.log(`\n Você possuí R$${saldo} de saldo!`);
 
-
-
-programa(cnt);
-cnt.bd();
+programa(cnt)
