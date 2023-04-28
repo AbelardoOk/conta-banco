@@ -6,7 +6,7 @@ var prompt = PromptSync();
 
 export function programa(cnt) {
 
-    for(i = 0; i != 4; i){
+    for(i = 0; i != 5; i){
 
         console.log(" \n !Ações Bancárias ! \n 1. Depósito \n 2. Saque \n 3. Saldo \n 4. Cotação \n 5. Sair \n");
 
@@ -21,7 +21,7 @@ export function programa(cnt) {
                 break;
             case 3:
                 console.log(cnt.extrato());
-                break
+                break;
             case 4:
                 console.log(cotacao(cnt));
                 break;
